@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title> Belajar PHP </title>
+</head>
+<body>
+	<?php 
+	 $x1 = 4; 
+	 $y1 = 5;
+	 $x2 = 8;
+	 $y2 = 6;
+	 $x = $x2 - $x1;
+	 $y = $y2 - $y1;
+	 $a = pow($x,2);
+	 $b = pow($y,2);
+	 $c = sqrt($a + $b);
+	 
+	 $c=round($c);
+	 echo "jarak dua titik $c".round($c);
+	?>
+</body>
+</html>

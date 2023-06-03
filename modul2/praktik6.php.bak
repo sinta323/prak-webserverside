@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<body>
+	<?php
+	const BUNGA_KREDIT = 0.1;
+	
+	$hargaKendaraan = 45000000;
+	$uangMuka = 2500000;
+	$tenor = 36;
+	
+	$kekurangan = $hargaKendaraan - $uangMuka;
+	
+	if($tenor < 12){
+		echo "$biayaAwal<br>";
+	}elseif($tenor >= 12){
+			$bunga = $kekurangan * BUNGA_KREDIT;
+	}
+	$kredit = $kekurangan + $bunga;
+	$angsuran = $kredit / $tenor;
+	echo "Nilai Angsuran Bulanan adalah  = $angsuran";
+	
+	?>
+</body>
+</html>

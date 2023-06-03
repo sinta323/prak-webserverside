@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<?php
+	 for($bil=0; $bil <= 20; $bil++) {
+		 if($bil % 2 == 0) {
+			 if($bil % 8 == 0) {
+				 continue;
+			 }
+			 echo "$bil <br>";
+		 }
+	 }
+	?>
+</body>
+</html>

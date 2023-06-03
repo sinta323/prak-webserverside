@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+ <title>latiha no 2</title>
+</head> 
+<body>
+	<?php
+	const DIS1 = 0.1;
+	const DIS2 = 0.15;
+	//define('GAJI' , 50000);
+		
+		$totalBela nja = 400000;
+		if($totalBelanja >= 100000){
+			$diskon = DIS1;
+		}elseif ($totalBelanja >= 300000){
+			$diskon = DIS2;
+		}
+		$totalDiskon = $diskon * $totalBelanja;
+		$totalBayar = $totalBelanja - $totalDiskon;
+		echo "Total bayar = $totalBayar";
+	
+	?>
+</body>
+</html>

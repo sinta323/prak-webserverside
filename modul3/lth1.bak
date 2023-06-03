@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Pengulangan do..while</title>
+</head> 
+<body> 
+	<?php
+	$DIS1 = 0.1;
+	$Belanja = 200000;
+	
+	if($Belanja >= 100000){
+	$diskon = DIS1;
+	}
+	$totalDiskon = $diskon * $Belanja;
+	$totalBayar = $Belanja - $totalDiskon;
+	echo " Jumlah bayar = $totalDiskon";
+	?>
+</body> 
+</html>

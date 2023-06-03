@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<body>
+	<?php
+	const GOL1 = 2000000;
+	const GOL2 = 3000000;
+	const GOL3 = 4000000;
+	define('GAJI' , 50000);
+		
+	$golongan = 1; //input
+	$hariMasuk = 21; //input
+	//$gajiGol = GOL1;
+	
+	switch($golongan){
+		case 1;
+			$gajiGol = GOL1;
+			break;
+		case 2;
+			$gajiGol = GOL2;
+			break;
+		case 3;
+			//$gajiGol = GOL1;
+			break;	
+	}
+	$gajiTotal = $gajiGol + GAJI * $hariMasuk;
+	echo "Gaji total = $gajiTotal";
+
+	?>
+</body>
+</html>

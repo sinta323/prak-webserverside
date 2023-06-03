@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <?php
+        $bilangan = 5;
+        $jumlah = 0;
+        $x = 1;
+        do {
+            $jumlah= $jumlah+$x;
+            $x++;
+        }while($x <= $bilangan);
+        echo "Hasil dari jumlah bilangan = $jumlah<br>";
+        ?>
+    </body>
+</html>
